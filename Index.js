@@ -9,6 +9,30 @@
 //des problemes de confusion.
 //il est recommandé d'utiliser "let" plutot que "var" pour déclarer les variables en JS, car cela permet
 //une meilleure gestion de la portée et évite les problemes de réutilisation accidentelle de variables.
-//
-//
-// 
+
+//Write a program that prints ‘Hello World’ to the screen.
+let salutation = "Hello, World";
+console.log(salutation);
+//Write a program that asks the user for their name and greets them with their name.
+const name = "what is your name";
+console.log("hey Jemuel");
+//Modify the previous program such that only the users Alice and Bob are greeted with their names.
+console.log("hey Alice and Bob");
+//Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+let number1 = 2;
+let number2 = 2;
+console.log(number1 + number2);
+let n = inputnumber;
+let somme = 0;
+for(let i=1;i<=n;i++){
+    somme+=i;
+}
+console.log()
+//Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+
+
+
+
+
+
+ 
