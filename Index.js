@@ -14,25 +14,24 @@
 let salutation = "Hello, World";
 console.log(salutation);
 //Write a program that asks the user for their name and greets them with their name.
-const name = "what is your name";
+const name = prompt("what is your name");
 console.log("hey Jemuel");
 //Modify the previous program such that only the users Alice and Bob are greeted with their names.
-console.log("hey Alice and Bob");
-//Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
-let number1 = 2;
-let number2 = 2;
-console.log(number1 + number2);
-let n = inputnumber;
-let somme = 0;
-for(let i=1;i<=n;i++){
-    somme+=i;
+if (name === Alice){
+    console.log( "bonjour Alice" )
+}else if(name === Bob){
+    console.log( "bonjour Bob")
+}else{
+    console.log("Désolé, seuls Alice et Bob sont autorisés")
 }
-console.log()
+//Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+const number = parseInt("écris un nombre")
+let sum = 0
+for (let i = 1; i>=n ;i++ ) {
+    sum = sum + i
+}
+
+
+
+
 //Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
-
-
-
-
-
-
- 
