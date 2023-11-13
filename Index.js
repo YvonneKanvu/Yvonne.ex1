@@ -31,4 +31,39 @@ for (let i = 1; i>=n ;i++ ) {
     sum = sum + i
 }
 
-//Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+//Modify the previous program such that only multiples of three or five are considered in the sum,
+// e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+sum = 0
+for (let i = 1; i<=n; i++){
+    if(i%3=== 0){
+        sum = sum+i
+    }else if (i%5 ===0){
+        sum = sum+i
+    }
+}
+
+//les jours de la semaine avec swich
+let jour = 1;
+switch (jour) {
+   
+    case 1:
+        console.log('Lundi');
+        break;
+    case 2:
+        console.log('Mardi');
+        break;
+    case 3:
+        console.log('Mercredi');
+        break;
+    case 4:
+        console.log('Jeudi');
+        break;
+    case 5:
+        console.log('Vendredi');
+        break;
+    case 6:
+        console.log('Samedi');
+        break;
+        default:
+        console.log('Bon dimanche')
+}
